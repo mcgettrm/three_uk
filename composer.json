@@ -1,0 +1,19 @@
+{
+    "name": "mcget/three",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Mcget\\Three\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mcgettrm",
+            "email": "mcgettrick.michael@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*"
+    }
+}

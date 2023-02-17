@@ -1,0 +1,35 @@
+*   Trying 104.22.71.209:443...
+* Connected to www.alphavantage.co (104.22.71.209) port 443 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: C=US; ST=California; L=San Francisco; O=Cloudflare, Inc.; CN=sni.cloudflaressl.com
+*  start date: Nov 17 00:00:00 2021 GMT
+*  expire date: Nov 16 23:59:59 2022 GMT
+*  subjectAltName: host "www.alphavantage.co" matched cert's "*.alphavantage.co"
+*  issuer: C=US; O=Cloudflare, Inc.; CN=Cloudflare Inc ECC CA-3
+*  SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+* Using HTTP2, server supports multi-use
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* Using Stream ID: 1 (easy handle 0x204c8c97990)
+> GET /query?function=GLOBAL_QUOTE&symbol=AMZN&apikey=JR2PWBN16X3XV0M0 HTTP/2
+Host: www.alphavantage.co
+accept: application/json
+
+* old SSL session ID is stale, removing
+* Connection state changed (MAX_CONCURRENT_STREAMS == 256)!
+< HTTP/2 200 
+< date: Sat, 03 Sep 2022 18:04:48 GMT
+< content-type: application/json
+< vary: Cookie
+< x-frame-options: SAMEORIGIN
+< allow: GET, HEAD, OPTIONS
+< via: 1.1 vegur
+< cf-cache-status: DYNAMIC
+< server: cloudflare
+< cf-ray: 745068f2fd30d17c-LHR
+< 
+* Connection #0 to host www.alphavantage.co left intact
