@@ -1,4 +1,4 @@
-# Michael McGettrick Three Tech Test
+# Michael McGettrick 3-hour Three UK Tech Test
 
 # Setup instructions
 - Generate an API key for Alpha Avantage at the following URL: `https://www.alphavantage.co/support/#api-key`
